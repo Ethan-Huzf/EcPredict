@@ -164,7 +164,6 @@ python quantum/find_frame5_dimers.py \
 python -m unittest discover -s tests -v
 ```
 
-The included checks generate temporary inputs; they do not reproduce the paper's full experiments. **The original training procedure uses the same held-out subset for early stopping/learning-rate scheduling and subsequently reports it as Test.** Results therefore characterize the archived evaluation procedure, not a fully independent external test. CPU/GPU PCA, solver selection, numeric precision and GPU architecture can produce different partitions or MAEs. Seeds alone do not ensure bitwise reproduction across backends. The code-only release does not guarantee reproduction of published numerical values without the corresponding input arrays, partitions and environment.
 
 ## Related work and citation
 
