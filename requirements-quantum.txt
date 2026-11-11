@@ -1,0 +1,5 @@
+-r requirements.txt
+MDAnalysis==2.9.0
+pyscf==2.8.0
+rdkit==2023.9.5
+# Optional GPU backend: install compatible CuPy / GPU4PySCF separately.

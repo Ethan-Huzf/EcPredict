@@ -1,0 +1,104 @@
+[
+  {
+    "file": "models/dm_random_signed.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/1-1297_DM_P0_random_pct10/source_pipeline.py",
+    "sha256": "0cfdc69670658caa12452066463ea25e625bdfe730a930aa060657df862923dc",
+    "reference_gpu": "RTX4090",
+    "kind": "dm",
+    "target": "signed",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/dm_cluster_signed.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/1-1297_DM_P0_cluster_pct10/source_pipeline.py",
+    "sha256": "f0bae0a293fe031e7dca1da9421ff6d001e0d659dbc81869c22bfce475b8d6aa",
+    "reference_gpu": "RTX4090",
+    "kind": "cluster_dm",
+    "target": "signed",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/opt3d_random_signed.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/1-1297_OPT3D_random_pct10/source_pipeline.py",
+    "sha256": "5b77d94803812871df40f2d27157313df1eae9a20b3d420a8746534568cc0e6a",
+    "reference_gpu": "RTX3080",
+    "kind": "opt",
+    "target": "signed",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/opt3d_cluster_signed.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/1-1297_OPT3D_cluster_pct10/source_pipeline.py",
+    "sha256": "e7093f9277980907c15e2405b40296901c75ec950d3e1e97ccde262dada854c2",
+    "reference_gpu": "RTX3080",
+    "kind": "cluster_opt",
+    "target": "signed",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/dm_random_abs.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/Frame5_DM_P12_random_pct90/source_pipeline.py",
+    "sha256": "bbc3a5c3de74bf950c2c04a3a62fc38d0ea7884004ede47f9b5cbb0ab15b2c93",
+    "reference_gpu": "V100G32",
+    "kind": "dm",
+    "target": "abs",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/dm_cluster_abs.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/Frame5_DM_P12_cluster_pct90/source_pipeline.py",
+    "sha256": "d1415e2ce218b40c413832e03e79e8b7f89a130e51d241484afa8773a45e3ebf",
+    "reference_gpu": "RTX3090",
+    "kind": "cluster_dm",
+    "target": "abs",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/opt3d_random_abs.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/Frame5_OPT3D_random_pct10/source_pipeline.py",
+    "sha256": "14eab72c4404b1bddb997f52bbd798396d01f0df7e63f0901cf60cbb36fbdabe",
+    "reference_gpu": "RTX3080",
+    "kind": "opt",
+    "target": "abs",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "models/opt3d_cluster_abs.py",
+    "source_relative_to_research_workspace": "manuscript_20261008/picture/fitting_92/scatter_runs/Frame5_OPT3D_cluster_pct10/source_pipeline.py",
+    "sha256": "80a1bdee451c901a4456c2853c81411d31920ceb1659d373c39d143d3d769e98",
+    "reference_gpu": "RTX4090",
+    "kind": "cluster_opt",
+    "target": "abs",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "quantum/find_frame5_dimers.py",
+    "source_relative_to_reproduction_project": "reproduce_frame5/scripts/find_frame5_dimers.py",
+    "sha256": "01cf8c37968e23ecdcd129a8e215dd84518055a4d5a21aec047a3b79c69dccad",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "quantum/calc_one_frame5_pair_v.py",
+    "source_relative_to_reproduction_project": "reproduce_frame5/scripts/calc_one_frame5_pair_v.py",
+    "sha256": "fae8c807cbdab92525640e0cb29f719e5d3bbeb89b2fba2bb2b1adf898c10161",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "quantum/calc_frame5_v_batch.py",
+    "source_relative_to_reproduction_project": "reproduce_frame5/scripts/calc_frame5_v_batch.py",
+    "sha256": "d099160f7010a3a6e36d24b8008a99c43d88f7d95c35b318ddfadedb17ba0ed4",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "quantum/build_frame5_pkl_subset.py",
+    "source_relative_to_reproduction_project": "reproduce_frame5/scripts/build_frame5_pkl_subset.py",
+    "sha256": "60875d399ed621d5a3fdd290187e22659e0abf3d4f350436e325940cec1f27f5",
+    "copy": "byte-identical"
+  },
+  {
+    "file": "descriptors/atomic_weights.py",
+    "source": "dm_convert_opt3d/libob.py, literal arrays mw/vdW/pol/neg/ionpol/rcov",
+    "source_sha256": "733d9fcc5eb010f51b79ff550e0affdf0a25d5812167edb51615f43a3a1ba47e",
+    "copy": "C/H constants extracted exactly; no dataset rows"
+  }
+]
