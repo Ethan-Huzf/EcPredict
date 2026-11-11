@@ -4,7 +4,7 @@ Code accompanying **Euclidean-Threshold Clustering with OPT3D Descriptors for Da
 
 EcPredict compares distance-matrix (DM) and optimized 3D-MoRSE (OPT3D) representations, random splitting and Euclidean-threshold clustering, and artificial neural network (ANN) predictions of intermolecular electronic couplings.
 
-**This is a code-only release. No research datasets, MD trajectories, prediction records, pretrained models, or manuscript files are included.** Commands below require your own local inputs. Dataset names in the documentation describe the research tasks, not bundled files.
+
 
 ## Scope
 
